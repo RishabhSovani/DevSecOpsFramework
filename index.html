@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DevSecOps Framework</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/periodic_table.css" />
+    <link rel="stylesheet" href="css/tool_filter.css" />
+    <link rel="icon" type="image/x-icon"
+        href="https://macrosolutions.com/wp-content/uploads/2020/06/DevSecOps-Icon-1.png">
+</head>
+
+<body>
+    <!-- menubar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img
+                src="https://macrosolutions.com/wp-content/uploads/2020/06/DevSecOps-Icon-1.png" alt="" srcset=""
+                height="28"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tool-dir">Tool Dir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#visualize-pipline">Visualize Pipline</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <h6>Take Part in <i class="fa fa-hand-o-right"></i>&nbsp;&nbsp;</h6>
+                <a name="" id="" class="btn btn-primary my-2 my-sm-0" href="https://forms.gle/tUUhFkbZapyZ6T8n6"
+                    role="button">DevSecOps Survaey</a>
+            </form>
+        </div>
+    </nav>
+    <!-- menubar -->
+    <div class="jumbotron">
+        <h1 class="display-3">DevSecOps Framework, Handbook, Guide &amp; More... </h1>
+        <p class="lead">Recent studies indicate that a majority of organizations are changing the way they’re doing they’re development
+        operations practices. Any enterprises still operate in silos when it comes to the various functions, making it
+        incredibly challenging to both implement and keep track of an initiative like DevOps, especially when it requires
+        cross-functional cooperation and therefore increases chances of security risks that get deployed to the production and
+        by the time they get discovered by traditional IT/Security auditing process more things get deployed to the production
+        as part of CI/CD pipeline of DevOps/DevSecOps environment.</p>
+        <hr class="my-2">
+        <p>This is aimed to provide a considilated collection of all the tools and best prectices of implementing them</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Let's Get Started</a>
+        </p>
+    </div>
+    <!-- perodic table -->
+    <div class="container-fluid">
+        <img src="images/devops_table.jpg" style="width: 100%;" alt="">
+        <!-- <div class="row">
+            <table class="table" id="my_table">
+                <thead>
+                    <th>Group</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                    <th>12</th>
+                    <th>13</th>
+                    <th>14</th>
+                    <th>15</th>
+                    <th>16</th>
+                    <th>17</th>
+                    <th>18</th>
+                </thead>
+                <tbody>
+                    <tr id="remove_margin_top">
+                        <td>Period</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="blue_box">H</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="yellow_box">He</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="blue_box">Li</td>
+                        <td class="blue_box">Be</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="yellow_box">B</td>
+                        <td class="yellow_box">C</td>
+                        <td class="yellow_box">N</td>
+                        <td class="yellow_box">O</td>
+                        <td class="yellow_box">F</td>
+                        <td class="yellow_box">Ne</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="blue_box">Na</td>
+                        <td class="blue_box">Mg</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="yellow_box">Al</td>
+                        <td class="yellow_box">Si</td>
+                        <td class="yellow_box">P</td>
+                        <td class="yellow_box">S</td>
+                        <td class="yellow_box">Cl</td>
+                        <td class="yellow_box">Ar</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="blue_box"></td>
+                        <td class="blue_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="blue_box"></td>
+                        <td class="blue_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="blue_box"></td>
+                        <td class="blue_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="blue_box"></td>
+                        <td class="blue_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="salmon_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                        <td class="yellow_box"></td>
+                    </tr>
+    
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                        <td class="green_box"></td>
+                    </tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <td class="green_box"></td>
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div> -->
+    </div>
+    <!-- perodic table end -->
+    <!-- learn devops cluture & mindset -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Want to setup learn How to setup DevSecOps Culture and Mindset ?</h1>
+            <p class="lead">Click on the course Below</p>
+            <hr class="my-2">
+            <p>This course gives you the basic foundational principles of DevOps with a particular focus on culture and the DevOps
+            mindset. We’ll learn about how DevOps is grounded in lean principles, and how it can help improve collaboration between
+            developers and operations team members. We'll learn about ideas regarding systems thinking, feedback loops, continuous
+            improvement, loosely coupled architecture and teams, managing risk, and dealing with unplanned work. We’ll learn about
+            strategies to manage work, monitor it, keep it organized, and maintain a high level of quality by following key DevOps
+            principles. We’ll also discuss various organizational models and structures that are used by companies in their DevOps
+            transformations. You’ll learn about value stream mapping, and ensuring continuous workflow. Ultimately, we'll learn key
+            ideas and tactics that you can employ at your own organizations to improve both time-to-market and increase the value
+            delivered for your customers, no matter your product line or industry.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="https://www.coursera.org/learn/devops-culture-and-mindset" role="button">View Course</a>
+            </p>
+        </div>
+    </div>
+    <!-- end learn devops culture & mindset -->
+    <!-- tool dir -->
+    <h2 id="tool-dir" class="text-center">DevSecOps <span class="badge badge-primary">Tools Dir</span></h2>
+    <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
+            data-target="#mobile-filter" aria-expanded="false" aria-controls="mobile-filter">Filters<span
+                class="fa fa-filter pl-1"></span></button>
+    </div>
+    <section id="sidebar">
+        <div>
+            <h6>Filter Tool</h6>
+            <h6 class="p-1 border-bottom ml-md-2">Pipline</h6>
+            <ul class="ml-md-2">
+                <li><a href="#">Plan</a></li>
+                <li><a href="#">Develop</a></li>
+                <li><a href="#">Build</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Depoly</a></li>
+                <li><a href="#">Monitor</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h6 class="p-1 border-bottom ml-md-2">Tool Type</h6>
+            <form class="ml-md-2">
+                <div class="form-inline border rounded p-sm-2 my-2"> <input type="radio" name="type" id="boring"> <label
+                        for="boring" class="pl-1 pt-sm-0 pt-1">Free</label> </div>
+                <div class="form-inline border rounded p-sm-2 my-2"> <input type="radio" name="type" id="ugly"> <label
+                        for="ugly" class="pl-1 pt-sm-0 pt-1">Open Source</label> </div>
+                <div class="form-inline border rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly">
+                    <label for="notugly" class="pl-1 pt-sm-0 pt-1">Enterpirise</label> </div>
+                <div class="form-inline border rounded p-md-2 p-sm-1"> <input type="radio" name="type" id="notugly">
+                    <label for="notugly" class="pl-1 pt-sm-0 pt-1">Paid</label> </div>
+
+            </form>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-4 col-11 offset-sm-0 offset-1">
+                    <div class="card"> <img class="card-img-top img-thumbnail"
+                            src="http://1.bp.blogspot.com/-q2cFDV-aT70/UQmJIwFYlfI/AAAAAAAAAGQ/Bomg8hsRn4E/s1600/snort.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h6>Snort</h6>
+                            <p class="card-text">Snort is a very powerful, open-source DevSecOps tool that helps
+                                identify intruders. It also exposes malicious attacks on
+                                the system. Allows real-time traffic analysis and package logs.</p>
+                            <button type="button" class="btn btn-sm btn-outline-primary">More Info</button>
+                            <button type="button" class="btn btn-sm btn-primary">Best Practices</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-11 offset-sm-0 offset-1">
+                    <div class="card"> <img class="card-img-top img-thumbnail"
+                            src="http://i1.wp.com/blog.thescorpius.com/wp-content/uploads/2015/10/git-logo-2.png?resize=300%2C277"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h6>Git – Version Control Tool</h6>
+                            <p class="card-text">One of the fundamental building blocks of any CI setup is to have a
+                                strong version control system.</p>
+                            <button type="button" class="btn btn-sm btn-outline-primary">More Info</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#git-info">Best Practices</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-11 offset-sm-0 offset-1">
+                    <div class="card"> <img class="card-img-top img-thumbnail"
+                            src="https://www.cyberark.com/wp-content/uploads/2019/01/jenkins-e1537966865729.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h6>Jenkins</h6>
+                            <p class="card-text">Jenkins is an automation server. It is an open-source tool and written
+                                in Java. It helps many projects in automating,
+                                building and deploying.</p>
+                            <button type="button" class="btn btn-sm btn-outline-primary">More Info</button>
+                            <button type="button" class="btn btn-sm btn-primary">Best Practices</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- tool dir -->
+    <!-- git modelbox -->
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="git-info" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Here's a list of 7 git best practices you can start using in your next commit.
+                    <ol>
+                        <li>Don't git push straight to master .</li>
+                        <li>Adequately configure the commit authorship.</li>
+                        <li>Write descriptive and meaningful commit messages.</li>
+                        <li>Commit only related work.</li>
+                        <li>Avoid rewriting the master's history.</li>
+                        <li>Rebase your working branch frequently.</li>
+                    </ol>
+                    </p>
+                    <a name="" id="" class="btn btn-primary"
+                        href="https://sourcelevel.io/blog/7-git-best-practices-to-start-using-in-your-next-commit"
+                        role="button">More Details</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+        <div class="row"></div>
+            
+                <!-- Develop Your Pipline chart -->
+                    <div class="jumbotron jumbotron-fluid mt-5" id="visualize-pipline">
+                        <div class="container">
+                            <h1 class="display-3">Visualize Your DevSecOps PIpline</h1>
+                            <p class="lead">Select tools that suits your devsecops pipline and visualize them in there respective flow
+                            </p>
+                            <hr class="my-2">
+                            <p>your can create and download the pilline generated</p>
+                            <p class="lead">
+                                <a class="btn btn-primary btn-lg" href="#" role="button">visualize pipline</a>
+                            </p>
+                        </div>
+                    </div>
+                
+                <!-- End Develop Your Pipline -->
+            
+            
+        </div>
+    <!-- git modelbox -->
+    <!-- contribute more tools -->
+    <div class="container-fuuid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h6>Want to list more tools? <span class="badge badge-primary">fill the from below</span></h6>
+                            <p>the mentioned tool details will be reviewed and then added to the directroy</p>
+                        </div>
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSeoMFsOZUVDmaOvxn8YzmHARZaSSeE_6cEBWfiGFWW56RPuMQ/viewform?embedded=true"
+                            width="700" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- contribute more tools end -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
