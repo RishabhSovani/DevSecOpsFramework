@@ -12,7 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/periodic_table.css" />
-    <link rel="stylesheet" href="css/tool_filter.css" />
+    <!-- <link rel="stylesheet" href="css/tool_filter.css" /> -->
     <link rel="icon" type="image/x-icon"
         href="https://macrosolutions.com/wp-content/uploads/2020/06/DevSecOps-Icon-1.png">
 </head>
@@ -36,21 +36,21 @@
                     <a class="nav-link" href="#tool-dir">Tool Dir</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#visualize-pipline">Visualize Pipline</a>
+                    <a class="nav-link" href="#visualize-pipeline">Visualize pipeline</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        aria-haspopup="true" aria-expanded="false">Other</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
+                        <a class="dropdown-item" href="#">Case Studies</a>
+                        <a class="dropdown-item" href="#">survey &amp; Research</a>
                     </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <h6>Take Part in <i class="fa fa-hand-o-right"></i>&nbsp;&nbsp;</h6>
                 <a name="" id="" class="btn btn-primary my-2 my-sm-0" href="https://forms.gle/tUUhFkbZapyZ6T8n6"
-                    role="button">DevSecOps Survaey</a>
+                    role="button">DevSecOps survey</a>
             </form>
         </div>
     </nav>
@@ -75,228 +75,70 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Let's Get Started</a>
         </p>
     </div>
+    <!-- How this works -->
+    <div id="accordion">
+        <h2 id="tool-dir" class="text-center mb-5">How This Works? <span class="badge badge-success"> 3 easy Steps</span></h2>
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        1. Identify the problem
+                    </button>
+                </h5>
+            </div>
+    
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Which problems should you solve first ?
+                    <ul>
+                        <li>Problems that cost time ?</li>
+                        <li>Reduce reliability or quality?</li>
+                        <li>Limit release frequency ?</li>
+                        <li>Introduces risk?</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        2. Selecting Right tools
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Selecting right tools can majorly imporve your DevSecOps problem and provide you with a major advantage to get an under standing of which tool should you select for the right pipeline folow head over to the devops perodic table mentioned below.                    
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        3.Combine Into A process
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    Use the pipeline digeram generator to generate a visual understanding of the tools that are to be used in your devops pipeline so that you and all the stake holders get the idea of HOW, WHAT & WHERE are things working &amp; depeloyed
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- how this works ends -->
     <!-- perodic table -->
     <div class="container-fluid">
         <img src="images/devops_table.jpg" style="width: 100%;" alt="">
-        <!-- <div class="row">
-            <table class="table" id="my_table">
-                <thead>
-                    <th>Group</th>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>3</th>
-                    <th>4</th>
-                    <th>5</th>
-                    <th>6</th>
-                    <th>7</th>
-                    <th>8</th>
-                    <th>9</th>
-                    <th>10</th>
-                    <th>11</th>
-                    <th>12</th>
-                    <th>13</th>
-                    <th>14</th>
-                    <th>15</th>
-                    <th>16</th>
-                    <th>17</th>
-                    <th>18</th>
-                </thead>
-                <tbody>
-                    <tr id="remove_margin_top">
-                        <td>Period</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td class="blue_box">H</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="yellow_box">He</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td class="blue_box">Li</td>
-                        <td class="blue_box">Be</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="yellow_box">B</td>
-                        <td class="yellow_box">C</td>
-                        <td class="yellow_box">N</td>
-                        <td class="yellow_box">O</td>
-                        <td class="yellow_box">F</td>
-                        <td class="yellow_box">Ne</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td class="blue_box">Na</td>
-                        <td class="blue_box">Mg</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="yellow_box">Al</td>
-                        <td class="yellow_box">Si</td>
-                        <td class="yellow_box">P</td>
-                        <td class="yellow_box">S</td>
-                        <td class="yellow_box">Cl</td>
-                        <td class="yellow_box">Ar</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td class="blue_box"></td>
-                        <td class="blue_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td class="blue_box"></td>
-                        <td class="blue_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td class="blue_box"></td>
-                        <td class="blue_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td class="blue_box"></td>
-                        <td class="blue_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="salmon_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                        <td class="yellow_box"></td>
-                    </tr>
-    
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                        <td class="green_box"></td>
-                    </tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <td class="green_box"></td>
-                    <tr>
-                    </tr>
-                </tbody>
-            </table>
-        </div> -->
     </div>
     <!-- perodic table end -->
-    <!-- learn devops cluture & mindset -->
+    <!-- learn devops cluture &amp; mindset -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-3">Want to setup learn How to setup DevSecOps Culture and Mindset ?</h1>
@@ -325,17 +167,17 @@
             </p>
         </div>
     </div>
-    <!-- end learn devops culture & mindset -->
+    <!-- end learn devops culture &amp; mindset -->
     <!-- tool dir -->
-    <h2 id="tool-dir" class="text-center">DevSecOps <span class="badge badge-primary">Tools Dir</span></h2>
-    <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
+     <h2 id="tool-dir" class="text-center mb-5">DevSecOps <span class="badge badge-primary">Tools Dir</span></h2>
+    <!--<div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
             data-target="#mobile-filter" aria-expanded="false" aria-controls="mobile-filter">Filters<span
                 class="fa fa-filter pl-1"></span></button>
     </div>
     <section id="sidebar">
         <div>
             <h6>Filter Tool</h6>
-            <h6 class="p-1 border-bottom ml-md-2">Pipline</h6>
+            <h6 class="p-1 border-bottom ml-md-2">pipeline</h6>
             <ul class="ml-md-2">
                 <li><a href="#">Plan</a></li>
                 <li><a href="#">Develop</a></li>
@@ -362,7 +204,7 @@
 
             </form>
         </div>
-    </section>
+    </section> -->
     <section id="products">
         <div class="container">
             <div class="row">
@@ -450,21 +292,98 @@
     <br>
     <div class="row"></div>
 
-    <!-- Develop Your Pipline chart -->
-    <div class="jumbotron jumbotron-fluid mt-5" id="visualize-pipline">
+    <!-- Develop Your pipeline chart -->
+    <div class="jumbotron jumbotron-fluid mt-5" id="visualize-pipeline">
         <div class="container">
-            <h1 class="display-3">Visualize Your DevSecOps PIpline</h1>
-            <p class="lead">Select tools that suits your devsecops pipline and visualize them in there respective flow
+            <h1 class="display-3">Visualize Your DevSecOps pipeline</h1>
+            <p class="lead">Select tools that suits your devsecops pipeline and visualize them in there respective flow
             </p>
             <hr class="my-2">
             <p>your can create and download the pilline generated</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">visualize pipline</a>
+            <p class="lead" role="tab" id="showPipeline">
+                <a class="btn btn-primary btn-lg" role="button" data-toggle="collapse" data-parent="#Visualize-pipeline" href="#Pipelinemaker" aria-expanded="true" aria-controls="Pipelinemaker">visualize pipeline</a>
             </p>
         </div>
+        <!--devop digram generator  -->
+        <div id="Visualize-pipeline" role="tablist" aria-multiselectable="true">
+            <div class="card">            
+                <div id="Pipelinemaker" class="collapse in" role="tabpanel" aria-labelledby="showPipeline">
+                    <div class="card-body">
+                        <div class="container">
+                        
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                    Value Stream Management
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                        
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 p-3">
+                        
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Release orchestration
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Issue Tracking
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Collabration
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Testing
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Analytics
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Security
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3">
+                                                    Others
+                                                </div>
+                                            </div>
+                        
+                                        </div>
+                                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        
+                                            <div class="row">
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    SCM
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    Artifact Repo
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    CI
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    Config
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    Deployment
+                                                </div>
+                                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 p-3">
+                                                    Environment
+                                                </div>
+                                            </div>
+                        
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>        
+        
+        <!-- devop digram generator ends -->
     </div>
 
-    <!-- End Develop Your Pipline -->
+    <!-- End Develop Your pipeline -->
 
 
     </div>
